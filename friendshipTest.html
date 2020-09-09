@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>Friendship Test</title>
+</head>
+<body>
+<script>
+alert('Welcome to "HOW MUCH DO YOU KNOW MOHID?" Press OK to continue.');
+prompt("What is Mohid's Full Name?");
+prompt("When Was Mohid born?");
+prompt("Which food does Mohid like the most?");
+prompt("What was Mohid's childhood nickname?");
+prompt("What is the name of the cartoon hero that Mohid loved when he was a kid?");
+prompt("Does Mohid believe in 'Love At First Site'?");
+prompt("Which sports does Mohid Like the Best?");
+prompt("At what age mohid realized that he was wasting his life?");
+prompt("Does Mohid think he's the best?");
+
+var score=Math.random();
+score=Math.round(100*score)+1;
+
+if(score===100)
+{
+    alert("Wow, your result is "+ score + "%! You must be his best friend.");
+}
+
+else if(score>90)
+{
+    alert("Your result is "+ score + "%! Wow, you know Mohid very well. You must be one of his closest friends.");
+}
+
+else if(score > 70)
+{
+      alert("Your result is "+ score + "%! You know Mohid well.");
+}
+
+else if(score > 40)
+{
+      alert("Your result is "+ score + "%!");
+}
+
+else
+{
+     alert("Your result is "+ score + "%! You call yourself his FRIEND? SHAME!");
+}
+</script>
+</body>
+</html>
